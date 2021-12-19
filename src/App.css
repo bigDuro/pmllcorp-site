@@ -1,0 +1,153 @@
+ @import '~antd/dist/antd.css';
+
+.ant-layout-header {
+  padding: 0;
+}
+.ant-page-header {
+  padding: 16px 0px;
+}
+.ant-page-header-heading-title {
+  font-size: 30px;
+}
+.ant-page-header-heading-sub-title {
+  font-size: 20px;
+}
+.site-layout-content {
+ padding: 5%;
+ /* background: #fff; */
+ /* width: calc(75% + 32px); */
+ margin: auto;
+
+}
+
+
+.site-layout-parallax {
+ min-height: 280px;
+ padding: 5%;
+ /* width: calc(75% + 32px); */
+ margin: -200px auto 0;
+}
+
+.site-layout-parallax--dark {
+ background: #CAC9C7;
+ border-top: 1px #000 solid;
+}
+.site-layout-content--light {
+ background: #fff;
+}
+.ant-carousel {
+  padding: 0 0 50px 0;
+}
+.ant-carousel .slick-dots-bottom {
+  bottom: -50px;
+}
+.ant-checkbox-wrapper {
+  width: 100%
+}
+@media only screen and (max-width: 600px) {
+  .site-layout-homepage {
+      width: 100%;
+    }
+  .site-layout-content {
+    width: 100%;
+  }
+  .ant-page-header-heading-left {
+    display: block;
+  }
+  .ant-page-header-heading-title {
+    font-size: 20px;
+    /* width: 100%; */
+  }
+  .ant-page-header-heading-sub-title {
+    font-size: 12px;
+    display: none;
+    /* width: 100%; */
+  }
+  .ant-carousel {
+    padding: 0;
+  }
+  .ant-carousel .slick-dots-bottom {
+    bottom: -30px;
+  }
+}
+
+
+ #components-layout-demo-top .logo {
+   float: left;
+   width: 120px;
+   height: 31px;
+   margin: 16px 24px 16px 0;
+   background: rgba(255, 255, 255, 0.3);
+ }
+ .ant-row-rtl #components-layout-demo-top .logo {
+   float: right;
+   margin: 16px 0 16px 24px;
+ }
+
+ .app-breadcrumb{
+   padding: 10px 5%;
+   margin: auto;
+ }
+
+.ant-card-body {
+  padding: 5% 0;
+}
+
+.Header__Container {
+  display: flex;
+  height: 100%;
+}
+
+.Header__Logo {
+  margin: 0 auto !important;
+  font-size: 25px !important;
+  align-self: center;
+  /* color: #b31c1c !important; */
+  font-weight: 500 !important;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: absolute;
+  top: -40px;
+  left: 10%;
+  background-color: #fff;
+  padding: 5%;
+  border: 1px solid #f0f0f0;
+  z-index: 1;
+}
+.Header__Logo:hover {
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+.Header__Logo__image {
+  width: 100%;
+}
+
+.Header__Logo-sub {
+  font-size: 16px;
+  margin-left: 5px;
+  color: #1890ff !important;
+  font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 600px) {
+ .Header__Logo {
+     font-size: 20px;
+     top: -60px;
+     padding: 1%;
+   }
+  .Header__Logo-sub {
+    font-size: 12px;
+  }
+ }
+
+/* Contact Form */
+.btn.btn-info {
+  background-color: #1890ff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  float: right;
+  margin: 10px 0;
+  cursor: pointer;
+}

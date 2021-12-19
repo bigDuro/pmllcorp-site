@@ -1,0 +1,32 @@
+{
+  "port": 3000,
+  "buildDirectory": "./build",
+  "engine": {
+    "launchOptions": {
+      "args": ["--no-sandbox", "--disable-setuid-sandbox"],
+      "product": "chrome",
+      "headless": true,
+      "ignoreHTTPSErrors": true
+    }
+  },
+  "routes": [
+    "/",
+    "/signup-simple/index",
+    "/not-found/index",
+    "/about-us/index",
+    "/contact-us/index",
+    "/free-quote/index",
+    "/loan-programs/index",
+    "/loan-programs/conventional-loan/index",
+    "/loan-programs/fha-loan/index",
+    "/loan-programs/va-loan/index",
+    "/loan-programs/usda-loan/index",
+    "/loan-programs/renovation-loan/index",
+    "/loan-programs/jumbo-loan/index",
+    "/loan-programs/specialty-products/index",
+    "/loan-programs/down-payment-assistance/index",
+    "/resources/calculators/index",
+    "/resources/checklist/index",
+    "/resources/glossary/index"
+  ]
+}
