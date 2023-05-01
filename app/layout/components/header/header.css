@@ -1,0 +1,15 @@
+.headerBGDark{
+    background-color: #001529;
+    position: relative;
+    z-index: 2;
+}
+.headerBGLight{
+    background-color: #f2f2f2;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+.navigation{
+    text-align: right;
+    margin-right: 5%;
+}
