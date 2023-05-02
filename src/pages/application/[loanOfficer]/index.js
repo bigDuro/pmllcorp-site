@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Script from 'next/script'
 import { usePathname } from 'next/navigation';
-import { loanOfficerData } from '@/app/constants/loanOfficerData';
+import { loanOfficerData } from '@/src/constants/loanOfficerData';
 
 export default function Application() {
     const [pathname, setPathname] = useState(usePathname());

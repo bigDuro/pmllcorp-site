@@ -3,7 +3,7 @@
 import { Divider } from '@mui/material';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import { Map } from '../components/map/map';
+import { Map } from '../../components/map/map';
 
 export default function AboutUs() {
   return (

@@ -1,5 +1,5 @@
-import { Footer, Header } from './layout/components'
-import './globals.css'
+import { Footer, Header } from './components'
+// import './globals.css'
 
 export const metadata = {
   title: 'Peoples Mortgage Lending LLC',
@@ -8,12 +8,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
+      <>
         <Header/>
         {children}
         <Footer/>
-      </body>
-    </html>
+      </>
   )
 }

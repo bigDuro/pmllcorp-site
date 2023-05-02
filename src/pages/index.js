@@ -6,10 +6,11 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import { Divider } from '@mui/material';
-import { Hero } from './components/hero/hero';
-import { LoanPrograms } from './components/loanPrograms/loanPrograms';
-import { loanProgramsShort } from './components/loanPrograms/programs'
-import { Map } from './components/map/map';
+import { Hero } from '../components/hero/hero';
+import { LoanPrograms } from '../components/loanPrograms/loanPrograms';
+import { loanProgramsShort } from '../components/loanPrograms/programs'
+import { Map } from '../components/map/map';
+// import RootLayout from '../layout';
 
 export default function Home() {
   const router = useRouter();

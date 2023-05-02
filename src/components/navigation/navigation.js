@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { useRouter } from 'next/navigation';
-import { navigationData } from '@/app/constants/navigationData';
+import { navigationData } from '@/src/constants/navigationData';
 
 const pages = [...navigationData];
 const styles = { textTransform: 'none', 'color': '#333' }

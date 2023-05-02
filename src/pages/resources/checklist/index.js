@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { checklist } from '@/app/constants/resourcesChecklistData';
+import { checklist } from '@/src/constants/resourcesChecklistData';
 
 
 export default function Checklist() {

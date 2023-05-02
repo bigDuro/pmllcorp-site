@@ -3,7 +3,7 @@ import { Breadcrumbs, Link, Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import { usePathname } from 'next/navigation';
-import { navigationData } from '@/app/constants/navigationData';
+import { navigationData } from '@/src/constants/navigationData';
 function AppBreadcrumb() {
     const pathname = usePathname();
     const [breadcrumbs, setBreadcrumbs] = useState([]);

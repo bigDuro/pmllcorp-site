@@ -5,10 +5,15 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
-import './index.css'
+// import './index.css'
+
+const styles = {
+  backgroundColor: '#555',
+  paddingTop: '20px',
+}
 
 export const Footer = () => (
-  <Container maxWidth='100%' className='footerBGDark'>
+  <Container maxWidth='100%' style={styles}>
       <Box sx={{ width: '100%', padding: '20px 10%' }}>
         <Typography variant='body2' gutterBottom>
         A pre-approval does not constitute a loan commitment or guarantee of a loan. Pre-approval is subject to a satisfactory appraisal, satisfactory title search, and no meaningful change to borrower&#39;s financial condition.
