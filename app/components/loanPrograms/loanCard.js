@@ -15,9 +15,7 @@ export default function LoanCard({image, name, description, href}) {
         <CardActionArea onClick={() => router.push(href)}>
           <CardMedia
             component="img"
-            height="200"
-            width="100%"
-            image={image.src}
+            image={image.src.src}
             alt={image.alt}
           />
           <CardContent>

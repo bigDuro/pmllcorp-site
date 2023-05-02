@@ -11,7 +11,7 @@ export const loanProgramsShort = [
     {
       active:true,
       image: {
-        src: conventionalImage.src,
+        src: conventionalImage,
         alt: 'Conventional Program'
       },
       name: 'Conventional',
@@ -21,7 +21,7 @@ export const loanProgramsShort = [
     {
       active:true,
       image: {
-        src: fhaImage.src,
+        src: fhaImage,
         alt: 'FHA Loan Program'
       },
       name: 'FHA',
@@ -31,7 +31,7 @@ export const loanProgramsShort = [
     {
       active:true,
       image: {
-        src: vaImage.src,
+        src: vaImage,
         alt: 'VA Loan Program'
       },
       name: 'VA',
@@ -41,7 +41,7 @@ export const loanProgramsShort = [
     {
       active:true,
       image: {
-        src: usdaImage.src,
+        src: usdaImage,
         alt: 'USDA Loan Program'
       },
       name: 'USDA',
@@ -55,7 +55,7 @@ export const loanProgramsShort = [
     {
         active: false,
         image: {
-          src: renovationImage.src,
+          src: renovationImage,
           alt: "Renovation Loan Program",
         },
         name: 'Renovation',
@@ -65,7 +65,7 @@ export const loanProgramsShort = [
       {
         active: false,
         image: {
-          src: jumboImage.src,
+          src: jumboImage,
           alt: "Jumbo Loan Program",
         },
         name: 'Jumbo',
@@ -75,7 +75,7 @@ export const loanProgramsShort = [
       {
         active: false,
         image: {
-          src: specialtyProductsImage.src,
+          src: specialtyProductsImage,
           alt: "Specialty Products",
         },
         name: 'Specialty Products',
@@ -85,7 +85,7 @@ export const loanProgramsShort = [
       {
         active: false,
         image: {
-          src: downPaymentAssistanceProgramImage.src,
+          src: downPaymentAssistanceProgramImage,
           alt: "Down Payment Assistance Program",
         },
         name: 'Down Payment Assistance Program',
