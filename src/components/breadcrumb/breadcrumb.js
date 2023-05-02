@@ -9,12 +9,12 @@ function AppBreadcrumb() {
     const [breadcrumbs, setBreadcrumbs] = useState([]);
 
     useEffect(() => {
-        const paths = [...pathname.split('/')].filter(path => path !== '');
+        const paths = pathname ? [...pathname.split('/')].filter(path => path !== '') : [];
         const subLinks = navigationData.reduce((links, item) => {
             return [...links, ...item.links];
         }, []);
         const allNavLinks = [...navigationData, ...subLinks];
-        const allNavItems = paths.map(path => {
+        const allNavItems = paths?.map(path => {
             return allNavLinks.filter(item => item.href.includes(path))
         })
         const bcrumbs = allNavItems.map(item => {

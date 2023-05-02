@@ -51,7 +51,7 @@ export const Header = () => {
         <Toolbar disableGutters>
         <Grid container>
           <Grid item xs={12}>
-            <div className='navigation'>
+            <div style={styles['navigation']}>
               <Navigation/>
             </div>
             </Grid>
