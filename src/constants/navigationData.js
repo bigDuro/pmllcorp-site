@@ -1,6 +1,10 @@
 import { loanProgramsAll } from "../components/loanPrograms/programs";
 import { loanOfficerData } from "./loanOfficerData";
 
+const los = Object.keys(loanOfficerData).reduce((list, lo) => {
+  return [...list, loanOfficerData[lo]]
+}, [])
+
 export const navigationData = [
     {
       name: 'Home',
@@ -54,7 +58,7 @@ export const navigationData = [
       {
         name: 'Application',
         href: '/application',
-        links: [...loanOfficerData],
+        links: [...los],
         hide: true
       }
   ]
