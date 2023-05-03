@@ -36,11 +36,6 @@ export const navigationData = [
       name: 'Resources',
       href: '/resources',
       links: [
-        {
-            name: 'Mortgage Checklist',
-            href: '/resources/mortgage-checklist',
-            links: []
-          },
           {
             name: 'Mortgage Calculator',
             href: '/resources/mortgage-calculator',
@@ -49,6 +44,11 @@ export const navigationData = [
           {
             name: 'Refinance Calculator',
             href: '/resources/refinance-calculator',
+            links: []
+          },
+          {
+            name: 'Mortgage Checklist',
+            href: '/resources/mortgage-checklist',
             links: []
           }
           
@@ -59,6 +59,11 @@ export const navigationData = [
         href: 'https://pmllcorp.com/blog/',
         blank: true,
         links: []
+    },
+    {
+      name: 'Contact Us',
+      href: '/contact-us',
+      links: []
     },
     {
         name: 'Portal',
