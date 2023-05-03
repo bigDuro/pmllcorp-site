@@ -5,10 +5,12 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { Navigation } from '../../../components/navigation/navigation';
 import { Profile } from '../../../components/profile/profile';
 import { Logo } from '../../../components/logo/logo';
 import AppBreadcrumb from '@/src/components/breadcrumb/breadcrumb';
+import { NavigationMenu } from '@/src/components/navigationMenu/navigationMenu';
 // import './header.css'
 
 const styles = {
@@ -30,7 +32,8 @@ const styles = {
 }
 
 export const Header = () => {
-
+  const lgScreen = useMediaQuery('(min-width:900px)');
+  console.log('matches:: ', lgScreen)
   return ( 
     
     <AppBar position="static">
@@ -52,7 +55,7 @@ export const Header = () => {
         <Grid container>
           <Grid item xs={12}>
             <div style={styles['navigation']}>
-              <Navigation/>
+              {lgScreen ? <Navigation/> : <NavigationMenu/>}
             </div>
             </Grid>
         </Grid>

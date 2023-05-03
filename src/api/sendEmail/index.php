@@ -14,7 +14,7 @@ if (!$data->name || !$data->email || !$data->message) {
 }
 
 // Set the recipient email address
-$to = 'darrylcrockett@gmail.com';
+$to = 'chris@cwmortgagesolutions.com';
 
 // Set the email subject
 $subject = 'New message from ' . $data->name;

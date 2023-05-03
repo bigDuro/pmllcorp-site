@@ -33,6 +33,7 @@ export const Navigation = () => {
                         sx={{}}
                         style={styles}
                         onClick={() => router.push(item.href)}
+                        target={item.blank ? '_blank' : '_self'}
                     >
                         {item.name}
                     </Button> : 

@@ -15,7 +15,7 @@ export const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('https://pmllcorp.com/api/sendEmail', {
+    const res = await fetch('https://pmllcorp.com/api/sendEmail/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
