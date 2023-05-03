@@ -1,0 +1,12 @@
+.logoImg {
+    position: absolute;
+    width: 225px;
+    top: -10px;
+    left: 5%;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 1px 0 0 hsl(0deg 0% 100%/30%), 0 2px 4px 0 rgba(0,0,0,.33);
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    /* z-index: 10; */
+}
