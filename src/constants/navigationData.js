@@ -37,10 +37,21 @@ export const navigationData = [
       href: '/resources',
       links: [
         {
-            name: 'Checklist',
-            href: '/resources/checklist',
+            name: 'Mortgage Checklist',
+            href: '/resources/mortgage-checklist',
+            links: []
+          },
+          {
+            name: 'Mortgage Calculator',
+            href: '/resources/mortgage-calculator',
+            links: []
+          },
+          {
+            name: 'Refinance Calculator',
+            href: '/resources/refinance-calculator',
             links: []
           }
+          
       ]
     },
     {

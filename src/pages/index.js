@@ -10,6 +10,7 @@ import { Hero } from '../components/hero/hero';
 import { LoanPrograms } from '../components/loanPrograms/loanPrograms';
 import { loanProgramsShort } from '../components/loanPrograms/programs'
 import { Map } from '../components/map/map';
+import { MortgageCalculator } from '../components/mortgageCalculator/mortgageCalculator';
 // import RootLayout from '../layout';
 
 export default function Home() {
@@ -46,6 +47,7 @@ export default function Home() {
             <Typography gutterBottom variant="body1" component="p" style={{ color: "#666" }}>
               Peoples Mortgage Lending LLC, is a family owned company that focuses on values and relationships which we believe are the foundation of success. We constantly evolve and adapt to ensure our employees are equipped with the right blend of products, service, and training to ensure that you have the best possible experience in one of the most important decisions in your life.
             </Typography>
+            <Divider style={{margin: '3%'}}/>
             <Typography gutterBottom variant="h5" component="div" style={{ marginBottom: '3%' }}>
               Our Mission
             </Typography>
