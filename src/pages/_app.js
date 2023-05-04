@@ -14,7 +14,9 @@ function App({ Component, pageProps }) {
     <>
       <Head>
         <title>{seo.title}</title>
+        <link rel="canonical" href={seo.canonical} />
         <meta name="description" content={seo.description} />
+        <meta name="keywords" content={seo.keywords}></meta>
         <meta property="og:image" content={seo.openGraph.ogImage.ogImage} />
         <meta property="og:image:alt" content={seo.openGraph.ogImage.ogImageAlt} />
         <meta property="og:image:width" content={seo.openGraph.ogImage.ogImageWidth} />

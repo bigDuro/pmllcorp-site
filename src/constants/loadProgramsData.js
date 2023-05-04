@@ -1,11 +1,11 @@
-import conventionalImage from '../../assets/images/family-pic.jpeg';
-import fhaImage from '../../assets/images/family-pic-dog.jpeg';
-import vaImage from '../../assets/images/military-dad-with-kids.jpeg';
-import usdaImage from '../../assets/images/front-door-steps.jpeg';
-import renovationImage from '../../assets/images/man-and-woman.jpeg';
-import jumboImage from '../../assets/images/renovated-kitchen.jpeg';
-import specialtyProductsImage from '../../assets/images/man-and-woman-hugged-up.jpeg';
-import downPaymentAssistanceProgramImage from '../../assets/images/man-woman-and-baby.jpeg';
+import conventionalImage from '../assets/images/family-pic.jpeg';
+import fhaImage from '../assets/images/family-pic-dog.jpeg';
+import vaImage from '../assets/images/military-dad-with-kids.jpeg';
+import usdaImage from '../assets/images/front-door-steps.jpeg';
+import renovationImage from '../assets/images/man-and-woman.jpeg';
+import jumboImage from '../assets/images/renovated-kitchen.jpeg';
+import specialtyProductsImage from '../assets/images/man-and-woman-hugged-up.jpeg';
+import downPaymentAssistanceProgramImage from '../assets/images/man-woman-and-baby.jpeg';
 
 export const loanProgramsShort = [
     {

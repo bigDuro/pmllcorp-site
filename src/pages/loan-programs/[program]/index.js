@@ -3,7 +3,7 @@
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { loanProgramsAll } from '@/src/components/loanPrograms/programs';
+import { loanProgramsAll } from '@/src/constants/loadProgramsData';
 import { usePathname, useRouter } from 'next/navigation';
 import { Button, Divider } from '@mui/material';
 import Image from 'next/image';

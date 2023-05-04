@@ -3,7 +3,7 @@
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { LoanPrograms } from '../../components/loanPrograms/loanPrograms';
-import { loanProgramsAll } from '../../components/loanPrograms/programs';
+import { loanProgramsAll } from '../../constants/loadProgramsData';
 
 export default function LoanProgramPage() {
   return (

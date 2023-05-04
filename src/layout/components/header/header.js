@@ -11,6 +11,7 @@ import { Profile } from '../../../components/profile/profile';
 import { Logo } from '../../../components/logo/logo';
 import AppBreadcrumb from '@/src/components/breadcrumb/breadcrumb';
 import { NavigationMenu } from '@/src/components/navigationMenu/navigationMenu';
+import { ApplyNow } from '@/src/components/applyNow/applyNow';
 // import './header.css'
 
 const styles = {
@@ -33,7 +34,6 @@ const styles = {
 
 export const Header = () => {
   const lgScreen = useMediaQuery('(min-width:900px)');
-  console.log('matches:: ', lgScreen)
   return ( 
     
     <AppBar position="static">
@@ -43,9 +43,10 @@ export const Header = () => {
           <Grid item xs={12}>
             <Logo/>
             <div style={styles['navigation']}>
-              <Profile/>
+              <Profile lgScreen={lgScreen}/><ApplyNow lgScreen={lgScreen}/>
             </div>
-          </Grid>
+            </Grid>
+            
         </Grid>
           
         </Toolbar>

@@ -1,4 +1,4 @@
-import { loanProgramsAll } from "../components/loanPrograms/programs";
+import { loanProgramsAll } from "./loadProgramsData";
 import { loanOfficerData } from "./loanOfficerData";
 
 const los = Object.keys(loanOfficerData).reduce((list, lo) => {

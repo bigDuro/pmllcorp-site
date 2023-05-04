@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import { Divider } from '@mui/material';
 import { Hero } from '../components/hero/hero';
 import { LoanPrograms } from '../components/loanPrograms/loanPrograms';
-import { loanProgramsShort } from '../components/loanPrograms/programs'
+import { loanProgramsShort } from '../constants/loadProgramsData'
 import { Map } from '../components/map/map';
 import { MortgageCalculator } from '../components/mortgageCalculator/mortgageCalculator';
 // import RootLayout from '../layout';
