@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { usePathname } from 'next/navigation';
 import RootLayout from '../layout/index';
 import { seoData } from '../constants/seoData';
-import '../globals.css'
+import './globals.css'
 
 
 function App({ Component, pageProps }) {
