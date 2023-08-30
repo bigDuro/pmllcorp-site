@@ -1,17 +1,20 @@
 import Head from 'next/head';
 import { usePathname } from 'next/navigation';
+import { SessionProvider } from "next-auth/react"
 import RootLayout from '../layout/index';
 import { seoData } from '../constants/seoData';
 import './globals.css'
 
 
-function App({ Component, pageProps }) {
+function App({
+  Component, pageProps: { session, ...pageProps }
+}) {
   const path = usePathname();
   const pathname = path?.split('/')[1]
   const seo = seoData[pathname] || seoData['home'];
 
   return (
-    <>
+    <SessionProvider session={session}>
       <Head>
         <title>{seo.title}</title>
         <link rel="canonical" href={seo.canonical} />
@@ -30,7 +33,7 @@ function App({ Component, pageProps }) {
       <RootLayout>
         <Component {...pageProps} />
       </RootLayout>
-    </>
+    </SessionProvider>
   );
 }
 
